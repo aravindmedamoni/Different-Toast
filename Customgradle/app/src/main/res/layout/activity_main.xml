@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/errorbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Button"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#E71C23"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/successbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success Button"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#019031"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/infobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Button"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#0A79DF"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/warningbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Button"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#E74292"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/imagebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Button"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#6A89CC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"/>
+
+
+</LinearLayout>
